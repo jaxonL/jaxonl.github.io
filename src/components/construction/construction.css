@@ -1,0 +1,16 @@
+.Spin-cog {
+  animation: Spin-animation infinite 5s linear;
+}
+
+.Spin-wrench {
+  animation: Spin-animation infinite 2s steps(8);
+}
+
+@keyframes Spin-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
