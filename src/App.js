@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { Construction } from './components/construction/construction';
+import { ConstructionComponent } from './components/construction/constructionComponent';
 import blueGrey from '@material-ui/core/colors/blueGrey'
 import teal from '@material-ui/core/colors/teal'
 
@@ -30,7 +30,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <CssBaseline/>
-        <Construction></Construction>
+        <ConstructionComponent></ConstructionComponent>
       </MuiThemeProvider>
     );
   }
