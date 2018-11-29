@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build -n -m \"automatic update : \\\"$(date)\\\"; echo \"$(date)\"",
+    "deploy": "gh-pages -b master -d build -n -m \"automatic update : $(date)\"; echo \"$(date)\"",
     "gh-pages-help": "gh-pages --help"
   },
   "eslintConfig": {
